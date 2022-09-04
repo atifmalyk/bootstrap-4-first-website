@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first-portion{
+    margin: 0;
+    padding: 0;
+}
+
+/* !Main NAV SECTION */
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color:white;
+   
+}
+.nav-super{
+    height: 80px;
+    background-color: black;
+}
+.pages a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+ background:none;
+  text-decoration: none;
+    
+}
+
+/* !bouncing dot in purchase */
+
+button .purchase .dot{
+ height: 20px;
+ width: 20px;
+ background: #000;
+}
+.nav-main button{
+    height: 55px;
+    width: 160px;
+}
+.projects a{
+    color: gray;
+ 
+
+}
+ .projects a:hover{
+    background: none;
+    color: white;
+    display: block;
+}
+/* !PROJECTS SECTION STATRTED */
+.project-row{
+    padding-top: 100px;
+    position: relative;
+}
+.image-up{
+    position:absolute;
+
+}
+.image-down{
+position: absolute;
+left: 30%;
+top: 200px;
+}
+.project-details p{
+    font-size: 18px;
+    width: 80%;
+
+}
+.btn-project button{
+    height: 50px;
+    width: 160px;
+}
+
+/* !Gallery Section Started */
+
+.grid-gallery{
+    margin-top: 200px;
+}
+.grid-gallery img{
+    border: 1px solid gray;
+}
+.flickity-cont{
+    margin-top: 170px;
+    background: black ;
+    height: 160vh;
+}
+.fl1,
+.fl2,
+.fl3,
+.fl4,
+.fl5,
+.fl6{
+    margin-right: 50px;
+}
+.fl2,.fl4,.fl6{
+    margin-top: 80px;
+}
+/* !FLICKITY SECTION ENDED */
+
+.practical-para p{
+    width: 75%;
+    font-size: 18px;
+}
+/* !Practical section ended */
+
+/* ?Menu SECTION started */
+.menu-container{
+    height: 120vh;
+    background-color: #000;
+    margin-top: 100px;
+}
+/* !Responsive Section */
+
+.resp-container{
+    background-color: #F5F5F5;
+    padding-top: 110px;
+}
+/* !Bootstrap bottom */
+
+.bootstrap-1{
+    margin-left: -90px;
+   width: 300px;
+}
+.container-grid3{
+    margin-top: 120px;
+}
+
+/* !Hover Effect */
+/* !Upper Images */
+.image-first .col:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+.image-second .col-4:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+.image-third .col-4:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+.last-two .col-4:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+/* !Upper images ended */
+}
+button:hover span p{
+ margin-top: -15px;
+}
+/* !Empty Girds sect */
+.empty-grid .col:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+/* !flickity images */
+.main-carousel .carousel-cell:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+/* !Second Grid Gallery */
+.grid-gallery2 .col-3:hover img{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+.owl-slide img:hover{
+    transition: all 0.5s;
+    transform: translateY(-20px);
+}
+.arrow:hover h2{
+   transition: all 1s;
+   transform: scale(1.2);
+}
+/* !Slider */
+
+ 
+/* !Animations */
+/* ?First Portion */
+.theme-head{
+    transition: all 1s;
+    animation: theme 1.5s linear 1s 1 forwards reverse;
+}
+@keyframes theme {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+.image-first{
+
+    transition: all 1s;
+    animation: image1 1.5s linear 1s 1 forwards reverse;
+}
+@keyframes image1 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+.image-second{
+margin-left: -20px;
+    transition: all 1s;
+    animation: image2 1.5s linear 1s 1 forwards reverse;
+}
+@keyframes image2 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+.image-third{
+    margin-left: -10px;
+        transition: all 1s;
+        animation: image3 1.5s linear 1s 1 forwards reverse;
+    }
+    @keyframes image3 {
+        from{
+            transform: translateY(0px);
+        }
+        to{
+            transform: translateY(40px);
+        }
+        }
+
+
+        /* !Footer SectioN Started */
+
+        .container-footer{
+            background-color: #000;
+            height: 100vh;
+            margin-top: 120px;
+        }
+
+        .end-row h1{
+            width: 700px;
+    
+        }
